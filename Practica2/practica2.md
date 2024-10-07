@@ -46,3 +46,7 @@ Aqui configuraremos la reserva de IP la cual queremos darle a nuestro cliente.
 ![alt text](IMG/concesion_IPs.png)
 
 Una vez configurado nuestros clientes como clientes dhcp en el archivo "/var/lib/dhcp/dhcpd.leases" veremos que se ha dado la concesión de dicha ip. 
+
+![alt text](IMG/journalctl.png)
+
+En este apartado veremos como con el comando "journalctl -f -u isc-dhcp-server" se ven los accesos del cliente renovando la IP.
